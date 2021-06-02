@@ -26,6 +26,8 @@
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
+/* text is finished here */
+
 * {
      box-sizing: border-box !important;
 }
@@ -293,7 +295,7 @@ button {
 }
 
 .main_bt {
-     background: #ee580f;
+     background: #222222;
      color: #fff;
      padding: 15px 60px 15px 60px;
      float: left;
@@ -1632,7 +1634,9 @@ input[type="radio"] .styled:checked+label::after {
      line-height: 108px;
      text-transform: uppercase;
      color: #0adef8;
-     font-weight: bold;
+     /*font-weight: bold;*/
+    /*  padding-bottom: 35px;*/
+    /* background-color: #43d9cf; */
      padding-bottom: 35px;
      padding-top: 25px;
 }
