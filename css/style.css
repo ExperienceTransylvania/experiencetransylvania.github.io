@@ -2011,12 +2011,12 @@ input[type="radio"] .styled:checked+label::after {
      padding: 0px 0px 20px 0px;
      font-size: 45px;
      font-weight: bold;
-     color: #fff;
+     color: #222222;
      line-height: 50px;
      text-transform: uppercase;
 }
 .amazing .amazing-box span {
-     color: #fff;
+     color: #222222;
      font-size: 17px;
      line-height: 32px;
      display: inline-block;
