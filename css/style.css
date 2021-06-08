@@ -452,7 +452,7 @@ header {
 
 
 .header {
-     position: fixed;
+    /* position: fixed; */
      background: url(../images/header-bg.jpg);
      background-color: rgba(0, 0, 0, 0);
      background-repeat: repeat;
