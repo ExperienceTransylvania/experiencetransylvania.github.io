@@ -2190,7 +2190,7 @@ input[type="checkbox"] .styled:checked+label::after,
 .csr {
     background: url(../images/csr.jpg);
     padding: 90px 0px;
-    background-size: auto;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
 }
