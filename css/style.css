@@ -2193,11 +2193,14 @@ input[type="checkbox"] .styled:checked+label::after,
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center center;
+    background-color: #e10404;
 }
 
 .csr .csr-box {
     text-align: center;
+    font-family: 'Abel', sans-serif;
     color: #ffffff;
+    font-size: 14px;
 }
 
 .csr .csr-box h2 {
