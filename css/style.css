@@ -2071,12 +2071,12 @@ input[type="checkbox"] .styled:checked+label::after,
     margin: 0px;
 }
 
-.Tours {
+.Team {
     background-color: #fff;
     margin-top: 90px;
 }
 
-.Tours .titlepage {
+.Team .titlepage {
     text-align: center;
     padding-bottom: 54px;
 }
@@ -2144,19 +2144,19 @@ input[type="checkbox"] .styled:checked+label::after,
     margin: 0px 5px;
 }
 
-.amazing {
-    background: url(../images/Amazing.jpg);
+.online {
+    background: url(../images/Online.jpg);
     padding: 90px 0px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-.amazing .amazing-box {
+.online .online-box {
     text-align: center;
 }
 
-.amazing .amazing-box h2 {
+.online .online-box h2 {
     padding: 0px 0px 20px 0px;
     font-size: 45px;
     font-weight: bold;
@@ -2165,7 +2165,7 @@ input[type="checkbox"] .styled:checked+label::after,
     text-transform: uppercase;
 }
 
-.amazing .amazing-box span {
+.online .online-box span {
     color: #222222;
     font-size: 17px;
     line-height: 32px;
@@ -2173,7 +2173,7 @@ input[type="checkbox"] .styled:checked+label::after,
     margin-bottom: 35px;
 }
 
-.amazing .amazing-box a {
+.online .online-box a {
     font-size: 17px;
     padding: 15px 50px;
     background-color: #222222;
@@ -2185,7 +2185,7 @@ input[type="checkbox"] .styled:checked+label::after,
     margin: 0 10px;
 }
 
-.amazing .amazing-box a:hover {
+.online .online-box a:hover {
     background: #15cfe5;
 }
 
