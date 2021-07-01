@@ -2071,12 +2071,12 @@ input[type="checkbox"] .styled:checked+label::after,
     margin: 0px;
 }
 
-.Team {
+.team {
     background-color: #fff;
     margin-top: 90px;
 }
 
-.Team .titlepage {
+.team .titlepage {
     text-align: center;
     padding-bottom: 54px;
 }
