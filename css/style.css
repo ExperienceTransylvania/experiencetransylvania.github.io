@@ -1877,6 +1877,13 @@ input[type="checkbox"] .styled:checked+label::after,
     justify-content: center;
 }
 
+.button_call_now {
+    color: #fc021f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
 .about .about-box p {
     font-size: 17px;
     line-height: 32px;
