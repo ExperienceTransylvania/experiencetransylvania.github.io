@@ -2455,6 +2455,30 @@ ul.location_icon span {
     font-weight: 400;
 }
 
+.cookies {
+    padding: 10px 0px 30px 0;
+}
+
+.cookies p {
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+    max-width: 594px;
+    text-align: left;
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+.cookies a {
+    color: #fff;
+}
+
+.cookies a:hover {
+    color: #15cfe5;
+}
+
+
 .copyright {
     padding: 10px 0px 30px 0;
 }
