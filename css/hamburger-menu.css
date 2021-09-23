@@ -122,8 +122,6 @@ section {
 ol,
 ul {
     list-style: none;
-    width: 1100px;
-    margin: 0 auto;
 }
 
 blockquote,
@@ -172,6 +170,16 @@ nav.menu {
     z-index: 999;
     min-height: 45px;
     height: 100%;
+}
+
+@media only screen and (min-width: 991px) {
+		nav.menu > ul {
+			width: 1100px;
+		}
+}
+
+nav.menu > ul {
+	margin: 0 auto;
 }
 
 .menu > ul > li {
