@@ -1,242 +1,362 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>Experience Transylvania</title>
-      <meta name="keywords" content="Experience Transylvania">
-      <meta name="description" content="Experience Transylvania">
-      <meta name="author" content="Experience Transylvania">
-      <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
-      <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
-      <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-      <!-- Tweaks for older IEs-->
-      <!-- owl stylesheets -->
-      <link rel="stylesheet" href="css/owl.carousel.min.css">
-      <link rel="stylesheet" href="css/owl.theme.default.min.css">
-      <!--[if lt IE 9]>
+    <head>
+        <!-- basic -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- mobile metas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+        <!-- site metas -->
+        <title>Experience Transylvania</title>
+        <meta name="keywords" content="Experience Transylvania">
+        <meta name="description" content="Experience Transylvania">
+        <meta name="author" content="Experience Transylvania">
+        <!-- bootstrap css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Hamburger Menu -->
+        <link rel="stylesheet" href="css/hamburger-menu.css">
+        <!-- style css -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Responsive -->
+        <link rel="stylesheet" href="css/responsive.css">
+
+        <!-- fevicon -->
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/fevicon.png" type="image/gif"/>
+        <!-- Scrollbar Custom CSS -->
+        <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+        <!-- Tweaks for older IEs-->
+        <!-- owl stylesheets -->
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <!-- team-->
+        <link rel="stylesheet" href="css/team.css">
+        <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-   </head>
-   <!-- body -->
-   <body class="main-layout">
-      <!-- loader  -->
+        <script>/* Pinegrow Interactions, do not remove */ (function(){try{if(!document.documentElement.hasAttribute('data-pg-ia-disabled')) { window.pgia_small_mq=typeof pgia_small_mq=='string'?pgia_small_mq:'(max-width:767px)';window.pgia_large_mq=typeof pgia_large_mq=='string'?pgia_large_mq:'(min-width:768px)';var style = document.createElement('style');var pgcss='html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}';if(document.documentElement.hasAttribute('data-pg-id') && document.documentElement.hasAttribute('data-pg-mobile')) {pgia_small_mq='(min-width:0)';pgia_large_mq='(min-width:99999px)'} pgcss+='@media ' + pgia_small_mq + '{ html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}}';pgcss+='@media ' + pgia_large_mq + '{html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}}';style.innerHTML=pgcss;document.querySelector('head').appendChild(style);}}catch(e){console&&console.log(e);}})()</script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel:400&display=swap">
+    </head>
+    <!-- body -->
+    <body class="main-layout">
+        <!-- header -->
+        <div class="xs-menu-cont">
+            <a id="menutoggle"><i class="fa fa-align-justify"></i> </a>
+            <nav class="xs-menu displaynone">
+                <ul>
+                    <li>
+                      <img src="images/logo-small.png" alt="logo">
+                    </li>
+                    <li class="active">
+                        <a href="https://experience-transylvania.com/index.html">Experience Transilvania</a>
+                    </li>
+                    <li>
+                        <a href="https://experience-transylvania.com/#safe">Safe Travels</a>
+                    </li>
+                    <li>
+                        <a href="https://experience-transylvania.com/team.html">Team</a>
+                    </li>
+                    <li>
+                        <a href="https://experience-transylvania.com/#tours">Tours</a>
+                    </li>
+                    <li>
+                        <a href="https://experience-transylvania.com/#online">Online Experience</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="https://experience-transylvania.com/"><img src="images/flag-gb.png" alt="GB"></a>
+                    </li>
+                    <li>
+                        <a href="https://transylvania.se/"><img src="images/flag-se.png" alt="Swedish"></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <nav class="menu">
+            <ul>
+				<li>
+					<img src="images/logo-small.png" alt="logo" style="margin-bottom: -17px;">
+                </li>
+                <li class="active">
+                    <a href="https://experience-transylvania.com/index.html">Experience Transilvania</a>
+                </li>
+                <!--<li class="drop-down">
+						<a href="#">Products</a>
 
-      <!-- end loader -->
-      <!-- header -->
-      <header>
-         <!-- header inner -->
-         <div class="header">
-            <div class="header_white_section">
-               <div class="container-fluid">
-                  <div class="row">
-                     <div class="col-md-12">
-                        <div class="header_information">
-                           <ul>
-                              <li><img src="images/1.png" alt="#"/> Transylvania, Romania</li>
-                              <li><img src="images/2.png" alt="#"/> +46 (0)8 68 45 5678</li>
-                              <li><img src="images/3.png" alt="#"/> info@transylvania.se</li>
-                              <li><a href="https://transylvania.se/" target="_blank" rel="noopener noreferrer"><img src="images/flag-se.png" alt="#"/> </li> </a>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
+						<div class="mega-menu fadeIn animated">
+							<div class="mm-6column">
+								<span class="left-images">
+								<img  src="https://4.bp.blogspot.com/-faF-AemPFUM/U4ryP7pQRsI/AAAAAAAAEvA/fZ-hskCSln4/s1600/Magento%2Bthemes.jpg">
+								<p>Most Popular Styles </p>
+				</span>
+								<span class="categories-list">
+							<ul>
+							<span>Computer</span>
+								<li>Desktops</li>
+								<li>Laptops</li>
+								<li>Tablets</li>
+								<li>Monitors</li>
+								<li>Networking Printers</li>
+								<li>Scanners</li>
+								<li>Jumpers & Cardigans</li>
+								<li><a class="mm-view-more" href="#">View more →</a></li>
+							</ul>
+						</span>
+
+							</div>
+							<div class="mm-3column">
+						<span class="categories-list">
+						<ul>
+							 <span>TV & Video</span>
+								<li>LED TVs
+								<li>Plasma TVs
+								<li>3D TVs
+								<li>DVD & Blu-ray Players
+								<li>Home Theater Systems
+								<li>Cell Phones
+								<li>Apple iPhone
+								<li><a class="mm-view-more" href="#">View more →</a></li>
+							</ul>
+						</span>
+							</div>
+							<div class="mm-3column">
+								<span class="categories-list">
+						<ul>
+							<span>Car Electronics</span>
+							<li>GPS & Navigation</li>
+							<li>In-Dash Stereos</li>
+							<li>Speakers</li>
+							<li>Subwoofers</li>
+							<li>Amplifiers</li>
+						    <li>MP3 Players</li>
+							<li>iPods</li>
+						   	<li><a class="mm-view-more" href="#">View more →</a></li>
+						</ul>
+					</span>
+						</div>
+					</div>
+
+					</li>-->
+                <li>
+                    <a href="https://experience-transylvania.com/#safe">Safe Travels</a>
+                </li>
+                <li>
+                    <a href="https://experience-transylvania.com/#tours">Tours</a>
+                </li>
+                <li>
+                    <a href="https://experience-transylvania.com/#online">Online Experience</a>
+                </li>
+                <li>
+                    <a href="https://experience-transylvania.com/team.html">Team</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li style="float:right;">
+                    <a href="https://experience-transylvania.com/"><img src="images/flag-gb.png" alt="GB"></a>
+                </li>
+                <li style="float:right;">
+                    <a href="https://transylvania.se/"><img src="images/flag-se.png" alt="Swedish"></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- end of header-->
+    <section>
+        <div class="banner-main">
+            <img src="images/banner.png" alt="Hello From Transylvania" style="width: 100%"/>
             <div class="container">
-               <div class="row">
-                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
-                     <div class="full">
-                        <div class="center-desk">
-                           <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="#"></a> </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
-                     <div class="menu-area">
-                        <div class="limit-box">
-                           <nav class="main-menu">
-                              <ul class="menu-area-main">
-                                 <li class="active"> <a href="#">Home</a> </li>
-                                 <li> <a href="#about">Safe travels</a> </li>
-                                 <li><a href="#travel">Tours</a></li>
-                                 <li><a href="#online">Online Experience</a></li>
-                                 <li><a href="#Tours">Team</a></li>
-                                 <li><a href="#contact">Contact</a></li>
-                              </ul>
-                           </nav>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- end header inner -->
-      </header>
-      <!-- end header -->
-      <section >
-         <div class="banner-main">
-            <img src="images/banner.jpg" alt="#"/>
-            <div class="container">
-              <!-- text part -->
-
-              <!-- finished text part -->
-               <div class="text-bg">
-               <h1><br><strong class="white">Privacy Policy</strong></h1>
-               <div class="button_section"> <a class="main_bt" href="https://experience-transylvania.com">Home</a>  </div>
-
-            </div>
-         </div>
-      </section>
-      <!-- about -->
-      <div id="about" class="about">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12 ">
-                  <div class="titlepage">
-                    <br><h2>1. Introduction</h2>
-                    <p>This policy describes whichtype of personal data Experience Transylvania processes about you, how your personal data is handled and why we process your personal data.
-                    We do not collect cookies on our website.</p>
-                    <br><h2>2. Experience Transylvania is responsible for personal data</h2>
-                    <p><br>The personal data we process about you depends on which of Experience Transylvania's services you use and which data you share with us. Below you have information about which data Experience Transylvania processes, why Experience Transylvania processes your data and how long Experience Transylvania stores your data.
-                   <br><h2>3. What type of personal data we process</h2>
-                   <br><h3>3.1 When you visit the Experience Transylvania website:</h3>
-                   <br><p> Today, Experience Transylvania does not use cookies.</p>
-                   <br><h3>3.2 When you buy our products through our representatives, our partners or online</h3>
-                   <br><p>In order to provide the products to you, we collect the following information. If the booking includes children, we also collect necessary information regarding the children.
-                   <br><p>- Passport information, Driving license information, Passenger information, information from other ID documents.
-                   <br>- Information about your purchases, including what you bought, when and where you bought it, how you paid and credit or other payment information.
-                   <br>- Social preferences, interests and activities.
-                   <br>- Social preferences, interests and activities.
-                   <br>- Information about your insurance policies that are relevant to your travels.
-                   <br>- Relevant medical information such as allergies and other dietary information, special disabilities that would imply different needs during travel.
-                   <br>- Information about your surfing habits on our website.
-                   <br>- Information that you click on one of our ads, including those displayed on other websites and in the social media.
-                   <br>- Information on how to access our digital services (IP address, location, operating system and browser).</p>
-                   <br><h3>3.3 Personal information you provide regarding other individuals</h3>
-                   <br><p>When another person uses your personal information to make a booking or to contact us regarding a case in which you are involved, we use the personal information this person provides about you.
-                   <br>When you provide personal information about other people, you must be sure that these people agree to it and that you have permission to provide the information. If appropriate, you should also make sure that they understand how their personal information may be used by us.</p>
-                   <br><h2>4. Personal information we collect and for what purpose</h2>
-                   <br><h3>4.1 To provide products and services at your request </h3>
-                   <br><p>We need to process your personal data to handle your booking, provide you with the services you wish to purchase and assist you with other orders or repurchases that you request.</p>
-                   <br><h3>4.2 To manage and improve our services and daily operations   </h3>
-                   <br><p>We use personal data to manage and improve our travel, website and other services.
-                   <br> We monitor how our services are used, in order to protect your personal data and to be able to detect and counteract if Experience Transylvania's services would be misused. This helps us to ensure that you can use our services safely.
-                   <br> We may use personal data to develop and improve our range, services, IT systems, security and the way we communicate with you.</p>
-                   <br><h3>4.3 To get in touch and interact with you </h3>
-                   <br><p>When you contact us, for example via e-mail, via our website (chat booth), telephone or via social media, we may use personal information to help you with assistance or clarification.</p>
-                   <br><h2>5. Share information with partners and suppliers</h2>
-                   <br><p>In order to provide the services you have purchased, we need to share your personal information with our partners and suppliers. These are i.a. travel agencies, hotels, airlines, car rental companies, transport companies, and IT providers. They only have access to the personal data that is necessary and this in order for them to be able to provide their services to you and us.
-                   <br> To be able to administer our business, we use various IT services and IT systems. In some of these, personal data is stored and processed. For the systems that are installed locally by us, the tasks are handled only by our staff. For the services that are installed at our supplier, or that consist of a cloud service, we transfer personal data to these.
-                   <br> We do not sell your personal information to third parties.
-                   <br><h2>6. Transfer to countries outside the EEA </h2>
-                   <br><p>Our web domain partners, as well as our internal tool providers, are all GDPR approved. Our internal tools such as CRM systems and mail server are encrypted, which means that all stored data, including your information, is secured. We do not transfer personal data to countries outside the EEA.</p>
-                   <br><h2>7. Storage of personal data</h2>
-                   <br><p>All personal data is stored. Any sensitive personal data is periodically deleted from our database and from our servers. To improve our service, however, we store your contact information in a secure and inaccessible way. Upon request, we can delete your contact information.</p>
-                   <br><h2>8. Your rights </h2>
-                   <br><h3>8.1 Right of access / register extract. </h3>
-                   <br><p>You have the right to receive an answer as to whether Experience Transylvania processes personal data about you. If this is the case, you have the right to information about e.g. what personal data is processed, the purposes of the processing, which external recipients receive your personal data and how long Experience Transylvania stores your personal data.</p>
-                   <br><h3>8.2 Correction of incorrect information.</h3>
-                   <br><p>You have the right to request that Experience Transylvania correct incorrect or incomplete information about yourself.</p>
-                   <br><h3>8.3 Deletion of certain data.</h3>
-                   <br><p>You have the right to request that Experience Transylvania delete your personal data under certain conditions, e.g. if the personal data is no longer necessary for the purpose for which Experience Transylvania collected the personal data. </p>
+                <!-- text part -->
+                <!-- finished text part -->
+                <div class="text-bg">
+                    <!-- <h1>Experience<br><strong class="white">Transylvania</strong></h1> -->
+                    <div class="button_section">
+                        <a class="main_bt" href="#about">Come in!</a>
+                    </div>
                 </div>
-               </div>
             </div>
-         </div>
+    </section>
 
-      </div>
-      <!-- end about -->
+             <!-- about -->
+             <div id="about" class="about">
+                <div class="container">
+                   <div class="row">
+                      <div class="col-md-12 ">
+                         <div class="titlepage">
+                            <br><h2>Privacy Policy:</h2>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+              
+             </div>
+ 
+             </div>
+          </div>
+       </section>
+       <!-- about -->
+       <div id="about" class="about">
+          <div class="container">
+             <div class="row">
+                <div class="col-md-12 ">
+                   <div class="titlepage">
+                     <br><h2>1. Introduction</h2>
+                     <p>This policy describes whichtype of personal data Experience Transylvania processes about you, how your personal data is handled and why we process your personal data.
+                     We do not collect cookies on our website.</p>
+                     <br><h2>2. Experience Transylvania is responsible for personal data</h2>
+                     <p><br>The personal data we process about you depends on which of Experience Transylvania's services you use and which data you share with us. Below you have information about which data Experience Transylvania processes, why Experience Transylvania processes your data and how long Experience Transylvania stores your data.
+                    <br><h2>3. What type of personal data we process</h2>
+                    <br><h3>3.1 When you visit the Experience Transylvania website:</h3>
+                    <br><p> Today, Experience Transylvania does not use cookies.</p>
+                    <br><h3>3.2 When you buy our products through our representatives, our partners or online</h3>
+                    <br><p>In order to provide the products to you, we collect the following information. If the booking includes children, we also collect necessary information regarding the children.
+                    <br><p>- Passport information, Driving license information, Passenger information, information from other ID documents.
+                    <br>- Information about your purchases, including what you bought, when and where you bought it, how you paid and credit or other payment information.
+                    <br>- Social preferences, interests and activities.
+                    <br>- Social preferences, interests and activities.
+                    <br>- Information about your insurance policies that are relevant to your travels.
+                    <br>- Relevant medical information such as allergies and other dietary information, special disabilities that would imply different needs during travel.
+                    <br>- Information about your surfing habits on our website.
+                    <br>- Information that you click on one of our ads, including those displayed on other websites and in the social media.
+                    <br>- Information on how to access our digital services (IP address, location, operating system and browser).</p>
+                    <br><h3>3.3 Personal information you provide regarding other individuals</h3>
+                    <br><p>When another person uses your personal information to make a booking or to contact us regarding a case in which you are involved, we use the personal information this person provides about you.
+                    <br>When you provide personal information about other people, you must be sure that these people agree to it and that you have permission to provide the information. If appropriate, you should also make sure that they understand how their personal information may be used by us.</p>
+                    <br><h2>4. Personal information we collect and for what purpose</h2>
+                    <br><h3>4.1 To provide products and services at your request </h3>
+                    <br><p>We need to process your personal data to handle your booking, provide you with the services you wish to purchase and assist you with other orders or repurchases that you request.</p>
+                    <br><h3>4.2 To manage and improve our services and daily operations   </h3>
+                    <br><p>We use personal data to manage and improve our travel, website and other services.
+                    <br> We monitor how our services are used, in order to protect your personal data and to be able to detect and counteract if Experience Transylvania's services would be misused. This helps us to ensure that you can use our services safely.
+                    <br> We may use personal data to develop and improve our range, services, IT systems, security and the way we communicate with you.</p>
+                    <br><h3>4.3 To get in touch and interact with you </h3>
+                    <br><p>When you contact us, for example via e-mail, via our website (chat booth), telephone or via social media, we may use personal information to help you with assistance or clarification.</p>
+                    <br><h2>5. Share information with partners and suppliers</h2>
+                    <br><p>In order to provide the services you have purchased, we need to share your personal information with our partners and suppliers. These are i.a. travel agencies, hotels, airlines, car rental companies, transport companies, and IT providers. They only have access to the personal data that is necessary and this in order for them to be able to provide their services to you and us.
+                    <br> To be able to administer our business, we use various IT services and IT systems. In some of these, personal data is stored and processed. For the systems that are installed locally by us, the tasks are handled only by our staff. For the services that are installed at our supplier, or that consist of a cloud service, we transfer personal data to these.
+                    <br> We do not sell your personal information to third parties.
+                    <br><h2>6. Transfer to countries outside the EEA </h2>
+                    <br><p>Our web domain partners, as well as our internal tool providers, are all GDPR approved. Our internal tools such as CRM systems and mail server are encrypted, which means that all stored data, including your information, is secured. We do not transfer personal data to countries outside the EEA.</p>
+                    <br><h2>7. Storage of personal data</h2>
+                    <br><p>All personal data is stored. Any sensitive personal data is periodically deleted from our database and from our servers. To improve our service, however, we store your contact information in a secure and inaccessible way. Upon request, we can delete your contact information.</p>
+                    <br><h2>8. Your rights </h2>
+                    <br><h3>8.1 Right of access / register extract. </h3>
+                    <br><p>You have the right to receive an answer as to whether Experience Transylvania processes personal data about you. If this is the case, you have the right to information about e.g. what personal data is processed, the purposes of the processing, which external recipients receive your personal data and how long Experience Transylvania stores your personal data.</p>
+                    <br><h3>8.2 Correction of incorrect information.</h3>
+                    <br><p>You have the right to request that Experience Transylvania correct incorrect or incomplete information about yourself.</p>
+                    <br><h3>8.3 Deletion of certain data.</h3>
+                    <br><p>You have the right to request that Experience Transylvania delete your personal data under certain conditions, e.g. if the personal data is no longer necessary for the purpose for which Experience Transylvania collected the personal data. </p>
+                 </div>
+                </div>
+             </div>
+          </div>
+ 
+       </div>
+       <!-- end about -->
+
+     
 
 
-      <!-- footer -->
-      <footer>
-         <div id="contact" class="footer">
+    <!-- footer -->
+    <footer>
+        <div id="contact" class="footer">
             <div class="container">
-               <div class="row pdn-top-30">
-                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                     <ul class="location_icon">
-                        <li> <a href="https://www.facebook.com/ExperienceTransylvania"><img src="icon/facebook.png"></a></li>
-                        <!--<li> <a href="#"><img src="icon/Twitter.png"></a></li>-->
-                        <li> <a href="https://www.linkedin.com/in/gloria-andersson-6b6b3110/"><img src="icon/linkedin.png"></a></li>
-                        <li> <a href="https://www.instagram.com/xtransylvaniax/"><img src="icon/instagram.png"></a></li>
-                        <li> <a href="https://www.tripadvisor.com/Attraction_Review-g2059473-d12048689-Reviews-Experience_Transylvania-Sebes_Alba_County_Central_Romania_Transylvania.html
-"><img src="icon/instagram.png"></a></li>
-                     </ul>
-                  </div>
-                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                     <div class="Follow">
-                        <h3>CONTACT US</h3>
-                        <span>Stockholm, Sweden <br><br>
-                        info@transylvania.se<br>
-                        WhatsApp: +46707443105 <br>
-                         (9:00-14:00 CET)
-                        </span>
-                     </div>
-                  </div>
-                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                     <div class="Follow">
-                        <h3>LINKS</h3>
-                        <ul class="link">
-                           <li> <a href="#about">About us</a></li>
-                           <li> <a href="https://experience-transylvania.com/terms.html">Terms and conditions</a></li>
-                           <li> <a href="https://experience-transylvania.com/privacy-policy.html"> Privacy policy</a></li>
-                           <!--<li> <a href="#blog">News</a></li>-->
-                           <!--<li> <a href="#"> Contact us</a></li>-->
+                <div class="row pdn-top-30">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <ul class="location_icon">
+                            <li>
+                                <a href="https://www.facebook.com/ExperienceTransylvania" target="_blank" rel="noopener noreferrer"><img src="icon/facebook.png"></a>
+                            </li>
+                            <!--<li> <a href="#"><img src="icon/Twitter.png"></a></li>-->
+                            <li>
+                                <a href="https://www.linkedin.com/in/gloria-andersson-6b6b3110/" target="_blank" rel="noopener noreferrer"><img src="icon/linkedin.png"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/xtransylvaniax/" target="_blank" rel="noopener noreferrer"><img src="icon/instagram.png"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.tripadvisor.com/Attraction_Review-g2059473-d12048689-Reviews-Experience_Transylvania-Sebes_Alba_County_Central_Romania_Transylvania.html
+" target="_blank" rel="noopener noreferrer"><img src="icon/tripadvisor.png"></a>
+                            </li>
+                            <li>
+                                <a href="https://transylvania.se/" target="_blank" rel="noopener noreferrer"><img src="images/flag-se.png" <alt="#"/>
+                            </li>
                         </ul>
-                     </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                     <div class="Follow">
-                        <h3> Contact</h3>
-                        <div class="row">
-                           <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                              <input class="Newsletter" placeholder="Name" type="text">
-                           </div>
-                           <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                              <input class="Newsletter" placeholder="Email" type="text">
-                           </div>
-                           <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                              <textarea class="textarea" placeholder="comment" type="text">Comment</textarea>
-                           </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="Follow">
+                            <h3>Company</h3>
+                            <span>Sibiu, Romania <br>
+                            Stockholm, Sweden <br>
+                            info@transylvania.se<br>
+                            Hours: (9:00-14:00 CET)
+                            WhatsApp: +46707443105
+                            <div class="button_call_now">
+                                <a class="main_bt" a href="tel:+46707443105">Call now!</a>
+                            </div>
+                            </span>
                         </div>
-                        <button class="Subscribe">Submit</button>
-                     </div>
-                  </div>
-               </div>
-               <div class="copyright">
-                  <div class="container">
-                     <p>Copyright 2021 All Right Reserved By <a href="https://transylvania.se/">Experience Transylvania</a></p>
-                  </div>
-               </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="Follow">
+                            <h3>LINKS</h3>
+                            <ul class="link">
+                                <li>
+                                    <a href="#about">About us</a>
+                                </li>
+                                <li>
+                                    <a href="#csr">Giving back</a>
+                                </li>
+                                <li>
+                                    <a href="#conditions">Travel conditions</a>
+                                </li>
+                                <li>
+                                    <a href="#climate">Climate compensation</a>
+                                </li>
+                                <li>
+                                    <a href="https://experience-transylvania.com/terms.html">Terms and conditions</a>
+                                </li>
+                                <li>
+                                    <a href="https://experience-transylvania.com/privacy.html"> Privacy policy</a>
+                                </li>
+                                <!--<li> <a href="#blog">News</a></li>-->
+                                <!--<li> <a href="#"> Contact us</a></li>-->
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Contact form starts -->
+
+                    <!-- Contact form ends -->
+
+                </div>
+                <div class="copyright">
+                    <div class="container">
+                      <p>This site does NOT use cookies. <br> The only cookies we have at Experience Transylvania are those we serve our guests during our welcome ceremony upon arrival at the airport.</p>
+                      <img src="images/cookie.png" alt="cookies"/><br>
+                    <p>Copyright 2021 All Right Reserved By <a href="https://transylvania.se/" target="_blank" rel="noopener noreferrer">Experience Transylvania</a></p> <br>
+                    </div>
+                </div>
             </div>
-         </div>
-      </footer>
-      <!-- end footer -->
-      <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <script src="js/plugin.js"></script>
-      <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
-      <!-- javascript -->
-      <script src="js/owl.carousel.js"></script>
-      <script>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/hamburger-menu.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- javascript -->
+    <script src="js/owl.carousel.js"></script>
+    <script>
          $(document).ready(function() {
            var owl = $('.owl-carousel');
            owl.owlCarousel({
@@ -257,6 +377,4 @@
            })
          })
       </script>
-
-   </body>
-</html>
+</body>
